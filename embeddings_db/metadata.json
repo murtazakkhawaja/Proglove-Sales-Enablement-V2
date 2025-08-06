@@ -1,0 +1,62 @@
+[
+  {
+    "pdf_name": "PDF1",
+    "chunk_id": 0,
+    "text": "Company Overview: Nexora Technologies is a next-generation software development and technology consulting company, founded in 2020 and headquartered in Austin, Texas. From humble beginnings as a three-person startup, Nexora has grown into a multinational team of over 60 engineers, data scientists, and designers. Our primary mission is to build intelligent, scalable, and secure digital solutions that simplify complexity and empower businesses. At Nexora, we combine technical excellence with deep industry insight to develop custom applications and AI-powered platforms tailored to our clients' needs. Our projects span multiple industries, including healthcare, fintech, logistics, education, and clean energy. We've successfully delivered over 120 solutions that streamline operations, enhance customer experience, and improve data-driven decision-making. One of our defining characteristics is our commitment to innovation. We don’t just follow trends — we lead them. By investing in R&D and continuously exploring new technologies, Nexora is able to deliver forward-thinking solutions that stand the test of time. Whether we’re integrating machine learning models into enterprise CRMs or deploying real-time data pipelines for financial analysis, we push the boundaries of what technology can achieve. In addition to development, we offer comprehensive consulting services, helping organizations with digital transformation strategies, system architecture planning, and technical audits.",
+    "embedding_index": 0
+  },
+  {
+    "pdf_name": "PDF1",
+    "chunk_id": 1,
+    "text": "Our clients value our end-to-end approach: we don’t just build; we advise, maintain, and grow with you. Nexora operates with a remote-first mindset, enabling us to hire global talent while maintaining productivity and flexibility. Our cross-functional teams are spread across offices in Austin, Toronto, Berlin, and Dubai. Despite geographical differences, we foster a unified culture through regular syncs, virtual events, and open communication. Over the past few years, we’ve earned a reputation for delivering quality, meeting deadlines, and exceeding expectations. Our long-term client relationships and repeat business are a testament to the trust we’ve built in the industry.",
+    "embedding_index": 1
+  },
+  {
+    "pdf_name": "PDF2",
+    "chunk_id": 0,
+    "text": "Services & Solutions: At Nexora Technologies, we offer a wide range of technical services designed to meet the ever-evolving needs of modern businesses. Our services are built around innovation, agility, and scalability — ensuring that every solution delivers measurable value and long-term impact. 1. Custom Software Development We build web and mobile applications from the ground up, tailored to specific business workflows and customer expectations. Our developers specialize in scalable, API-driven architectures using modern frameworks such as React, Angular, Flutter, Node.js, Django, and Laravel. 2. AI & Machine Learning Our data scientists help companies unlock the power of artificial intelligence. From recommendation engines and fraud detection to sentiment analysis and predictive modeling, we build AI systems that learn and adapt to business behavior. 3. Cloud & DevOps Whether you're just beginning your cloud journey or looking to scale an existing infrastructure, Nexora provides cloud architecture, migration, and optimization services. We’re proficient in AWS, Azure, and Google Cloud. Our DevOps team builds CI/CD pipelines, sets up infrastructure-as-code (IaC), and ensures smooth container orchestration using Docker and Kubernetes. 4. Data Engineering & Business Intelligence Data is only valuable when it’s accessible and actionable. We design and implement ETL pipelines, data lakes, and",
+    "embedding_index": 2
+  },
+  {
+    "pdf_name": "PDF2",
+    "chunk_id": 1,
+    "text": "analytical dashboards that empower clients to make informed decisions. Tools we use include Apache Airflow, Snowflake, Power BI, and Looker. 5. API Integration & Microservices We enable seamless communication between services by building secure APIs and microservice architectures. This ensures modularity, easy scaling, and better system performance. 6. Technical Consulting & Support Beyond development, we guide our clients on product roadmaps, architecture decisions, compliance, and security best practices. We provide ongoing support, upgrades, and SLA-based maintenance for long-term success. Our service model is highly collaborative — we work closely with stakeholders through agile sprints and frequent demos. This transparency and flexibility ensure we deliver what the client actually needs, not just what was initially scoped.",
+    "embedding_index": 3
+  },
+  {
+    "pdf_name": "PDF3",
+    "chunk_id": 0,
+    "text": "Team & Leadership: Behind Nexora Technologies is a diverse and talented team committed to technical excellence and client success. From leadership to engineering, our team is built on values of collaboration, curiosity, and continuous growth. Executive Leadership ● Sarah Rahman, CEO : A visionary leader with 15+ years of experience in enterprise IT and SaaS development. Sarah co-founded Nexora to create a company that values innovation, inclusion, and long-term partnerships. ● Dr. Zaid Kureshi, CTO : A machine learning expert with a PhD in Artificial Intelligence from Stanford. He leads Nexora’s technical strategy and oversees R&D initiatives in AI and distributed systems. ● Ayesha Malik, Head of Engineering : A full-stack expert and agile evangelist. Ayesha manages the engineering team, ensuring quality, scalability, and timely delivery of all projects. Product & Operations ● Elena Voss, Head of Product : With a background in UX and product management, Elena bridges the gap between client vision and technical delivery. ● Usman Tariq, Operations Manager : Coordinates cross-functional teams and manages resource planning, tools, and budgets. Engineering Culture We believe in empowering engineers to take ownership of their work. Every project team is autonomous and self-organizing, following agile methodologies and continuous integration practices.",
+    "embedding_index": 4
+  },
+  {
+    "pdf_name": "PDF3",
+    "chunk_id": 1,
+    "text": "Weekly code reviews, tech talks, and knowledge-sharing sessions are part of our DNA. Diversity & Learning Our team spans 8+ countries and includes people from various backgrounds, cultures, and career paths. We invest in learning through internal bootcamps, mentorship programs, and sponsored certifications. Internally, we promote from within and encourage cross-role exploration. Remote Collaboration Nexora operates on a remote-first model, using tools like Slack, Jira, Notion, and Miro to collaborate effectively. Team-building events, virtual offsites, and monthly town halls help keep everyone aligned and motivated. We hire people not just for what they’ve done, but for what they can become. And that mindset has helped us build a strong, reliable, and passionate team.",
+    "embedding_index": 5
+  },
+  {
+    "pdf_name": "PDF4",
+    "chunk_id": 0,
+    "text": "Case Studies & Clients Nexora Technologies has built long-term relationships with clients across various sectors, ranging from startups to Fortune 500 enterprises. Below are some real-world examples of how we've helped businesses solve complex problems and drive measurable outcomes. Case Study 1: Quantum Fintech – Fraud Detection System Quantum Fintech, a US-based financial services firm, needed an intelligent system to flag suspicious transactions. Nexora built an AI-powered anomaly detection engine that analyzed transactional behavior patterns in real time. As a result, the client reduced fraud losses by 42% within six months. Case Study 2: GreenLogix Inc. – Logistics Optimization Platform GreenLogix, a Canadian logistics startup, was facing route inefficiencies and delivery delays. We developed a GPS-integrated dashboard that optimized delivery schedules using predictive analytics. The solution led to a 30% improvement in on-time deliveries and a 15% reduction in fuel costs. Case Study 3: EduBridge UK – E-learning Platform EduBridge approached us to build an interactive, multilingual learning management system (LMS). Our team created a responsive web app with gamification features and integrated Zoom APIs. The platform now supports 50,000+ learners and 1,000+ teachers globally. Other Clients Include: ● HealthSecure (healthcare data platform) ● ApexRetail (POS & inventory system) ●",
+    "embedding_index": 6
+  },
+  {
+    "pdf_name": "PDF4",
+    "chunk_id": 1,
+    "text": "Skyline Energy (smart energy dashboards) Across all engagements, we maintain a client-centric approach. We begin with discovery workshops, followed by prototyping, development, and post-deployment support. Our 96% client satisfaction rate is a result of clear communication, technical depth, and a genuine passion for solving business problems.",
+    "embedding_index": 7
+  },
+  {
+    "pdf_name": "PDF5",
+    "chunk_id": 0,
+    "text": "Vision, Mission & Culture: At Nexora Technologies, we believe that great software is built on strong values, clear vision, and a collaborative culture. Our Vision: To lead the global transition to intelligent software systems that simplify life, work, and innovation. Our Mission: To empower businesses through secure, scalable, and intuitive technology solutions that solve real-world problems. Core Values: ● Integrity : We deliver what we promise, honestly and transparently. ● Innovation : We constantly experiment, learn, and adopt new ideas. ● Excellence : We strive for quality in every line of code and every interaction. ● Empathy : We build human-first products and respect every perspective. Culture at Nexora We maintain a culture of ownership, continuous feedback, and mutual respect. Our work environment encourages experimentation, learning, and autonomy. We don’t micromanage — we empower. And we support employees through career coaching, flexible schedules, and wellness initiatives. Social Impact Through our “Code for Change” initiative, we support non-profits with free tech services. We’ve built websites for educational charities, donation portals for disaster relief, and mobile apps for mental health awareness. Sustainability Efforts We are a digital company with a low carbon footprint. Our cloud infrastructure is hosted on green data centers,",
+    "embedding_index": 8
+  },
+  {
+    "pdf_name": "PDF5",
+    "chunk_id": 1,
+    "text": "and our operations are paperless by default. We encourage remote work to reduce travel and support eco-friendly vendor policies. Diversity & Inclusion At Nexora, inclusion isn’t a policy — it’s a principle. Our hiring process is blind to race, gender, age, or background. We conduct regular inclusivity audits, and our team represents over 12 nationalities. Looking Forward We envision a world where businesses operate intelligently, powered by data and driven by empathy. At Nexora, we’re committed to building that future — one product at a time.",
+    "embedding_index": 9
+  }
+]
