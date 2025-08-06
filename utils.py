@@ -2,10 +2,10 @@ import os
 import PyPDF2
 import openai
 from dotenv import load_dotenv  
-
+import streamlit as st
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["openai_api_key"]
 
 def extract_text_from_pdf(file_path):
     """Extract text from PDF using PyPDF2"""
