@@ -2,7 +2,8 @@ import logging
 import os
 from datetime import datetime
 from typing import List, Dict
-from openai import OpenAI
+import openai
+import streamlit as st
 from database import EmbeddingDatabase
 from utils import get_openai_embedding
 from dotenv import load_dotenv
@@ -16,7 +17,7 @@ logging.basicConfig(
     format="%(asctime)s — %(levelname)s — %(message)s"
 )
 
-openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai.api_key = st.secrets["openai_api_key"]
 
 class CompanyChatbot:
     def __init__(self, db_path="embeddings_db", model="gpt-3.5-turbo", top_k=6):
