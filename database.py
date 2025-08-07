@@ -1,7 +1,7 @@
 import json
 import os
 import pickle
-from typing import List, Dict, Optional
+from typing import List, Dict
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -10,8 +10,9 @@ class EmbeddingDatabase:
         self.db_path = db_path
         self.embeddings_file = os.path.join(db_path, "embeddings.pkl")
         self.metadata_file = os.path.join(db_path, "metadata.json")
-        self.embeddings = []
-        self.metadata = []
+        self.embeddings: List[List[float]] = []
+        self.metadata: List[Dict] = []
+        self._embeddings_array = None  # for faster search
         self._load_database()
 
     def _load_database(self):
@@ -26,6 +27,8 @@ class EmbeddingDatabase:
             with open(self.metadata_file, 'r', encoding='utf-8') as f:
                 self.metadata = json.load(f)
 
+        self._update_numpy_cache()
+
     def _save_database(self):
         """Save embeddings and metadata"""
         with open(self.embeddings_file, 'wb') as f:
@@ -33,6 +36,15 @@ class EmbeddingDatabase:
 
         with open(self.metadata_file, 'w', encoding='utf-8') as f:
             json.dump(self.metadata, f, indent=2, ensure_ascii=False)
+
+        self._update_numpy_cache()
+
+    def _update_numpy_cache(self):
+        """Cache embeddings as NumPy array for faster similarity search"""
+        if self.embeddings:
+            self._embeddings_array = np.array(self.embeddings, dtype=np.float32)
+        else:
+            self._embeddings_array = None
 
     def clear_database(self):
         """Remove all stored embeddings and metadata"""
@@ -51,12 +63,17 @@ class EmbeddingDatabase:
 
         for i, item in enumerate(embeddings_data):
             self.embeddings.append(item['embedding'])
-            self.metadata.append({
+            meta = {
                 'pdf_name': pdf_name,
                 'chunk_id': i,
                 'text': item['text'],
                 'embedding_index': len(self.embeddings) - 1
-            })
+            }
+            # Keep extra metadata from main.py (like page_num)
+            if 'metadata' in item:
+                meta.update(item['metadata'])
+
+            self.metadata.append(meta)
 
         self._save_database()
         print(f"Added {len(embeddings_data)} embeddings for '{pdf_name}'")
@@ -77,22 +94,20 @@ class EmbeddingDatabase:
 
     def search_similar_chunks(self, query_embedding: List[float], top_k: int = 5, threshold: float = 0.7) -> List[Dict]:
         """Search for similar chunks based on cosine similarity"""
-        if not self.embeddings:
+        if self._embeddings_array is None:
             return []
 
-        embeddings_array = np.array(self.embeddings)
-        query_array = np.array(query_embedding).reshape(1, -1)
+        query_array = np.array(query_embedding, dtype=np.float32).reshape(1, -1)
+        similarities = cosine_similarity(query_array, self._embeddings_array)[0]
 
-        similarities = cosine_similarity(query_array, embeddings_array)[0]
-
-        results = []
-        for i, similarity in enumerate(similarities):
-            if similarity >= threshold:
-                results.append({
-                    'metadata': self.metadata[i],
-                    'similarity': similarity,
-                    'text': self.metadata[i]['text']
-                })
+        results = [
+            {
+                'metadata': self.metadata[i],
+                'similarity': float(similarity),
+                'text': self.metadata[i]['text']
+            }
+            for i, similarity in enumerate(similarities) if similarity >= threshold
+        ]
 
         results.sort(key=lambda x: x['similarity'], reverse=True)
         return results[:top_k]
