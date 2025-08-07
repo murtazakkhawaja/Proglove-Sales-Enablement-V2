@@ -1,0 +1,71 @@
+Wearable Scanner Family
+Compatible with your 
+OS (Android, Windows, 
+Linux, iOS) Human-centered design 
+makes it easy to wear 
+all day and easier to useChoose between a display, 
+scan ranges, and your 
+operational needs  Smallest and lightest 
+wearable scanners 
+on the market Save up to 
+6 seconds per scan, 
+right away  All scanners can be 
+paired with any of the 
+3 wearables variations  
+Scan the QR Code or contact us for more information:
+info@proglove. com
+www.proglove.comProGlove
+ProGloveGET IN TOUCH
+50 x 45 x 17 mm
+35g
+50 x 45 x 17 mm
+39g
+50 x 45 x 17 mm
+39g50 x 45 x 16 mm
+40g50 x 45 x 18 mm
+48gDimensionsMARK 
+Display
+ Range Ruggedness Battery Temperature
+STANDARD RANGE
+10 cm - 90 cm
+LED dot aiming 50 drops from 2m
+IP547,000 scans*
+2h charging time0°C – 50°C
+*Battery life and barcode readability depends on 
+device settings, usage, and many other factors.
+MID RANGE
+30 cm - 150 cm
+Laser aiming
+STANDARD RANGE
+10 cm - 90 cm
+LED dot aiming100 drops from 2m
+IP5412,000 scans*
+2h charging time-20°C – 50°C
+MID RANGE
+30 cm - 150 cm
+Laser aiming
+STANDARD RANGE
+10 cm - 90 cm
+LED dot aiming
+0°C – 50°C
+MULTI RANGE
+10 cm - 250 cm
+Laser aimingMARK 2
+100 drops from 2m
+IP6512,000 scans*
+2h charging time-20°C – 50°C
+MULTI RANGE
+10 cm - 600 cm
+Laser aimingMARK 3
+MARK Basic
+50 drops from 2m
+IP548,000 scans*
+2h charging time
+STANDARD RANGE
+10 cm - 70 cm 
+LED dot aiming30 drops from 2m
+IP434,000 scans* 
+1h charging time0°C – 50°CLEO
+Guidance  - Optic, acoustic, haptic feedback
+Sensor  - Scan events, Movement, Device metadata
+Connectivity  - BLE, ProGlove INSIGHT

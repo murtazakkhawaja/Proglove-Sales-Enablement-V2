@@ -1,0 +1,167 @@
+| USE CASES FLYER
+Sorting is the major task at post and parcel 
+services. Highly automated and commonly 
+executed by robots and sorting machines. 
+Whenever it comes to bulky goods like 
+ironing boards, TV’s or a new batch of pet 
+food these robots reaching their boundar-
+ies and the bulky goods sorting is still a 
+manual task – elaborated by the human 
+workforce. The booming e-commerce 
+business leads to a steep
+increase to an already fluctuating overall 
+shipment volume. DHL needs to address 
+this increase whileworking with the same 
+size areas in its parcel centers.  
+PARCEL 
+& POSTAL 
+USE CASES
+MARK Display
+MARK mid range
+MARK mid range
+SORTING 
+PROCESS
+BENEFITS1.Parcels arrive by truck and 
+are transferred to the sorting 
+facility (rough pre-sorting) 
+2. Parcels are now sorted by 
+the system into different 
+ﬁngers (12 tours per ﬁnger)  
+3. Each parcel gets scanned 
+by the employee with the 
+MARK Display, which show 
+him the tour and the sorting 
+place 
+4. Employee puts the parcel 
+at the corresponding placebetter quality
+• Sorting information right at the 
+ﬁngertips, at a glance
+• Robust scanner, mobile device can 
+stay in the pocket, less repair issues“
+”MARK Display is light and 
+robust at the same time 
+with showing us only the 
+relevant information we 
+need. It’s the best fit for 
+our use case. useful insights
+• Gaining process insights with 
+integration into the Insight Platform 
+• More accurate planning for shift 
+schedule
+• Easy integration into the systemRemo Hess, Teamleader Depot Application IT, 
+DPD Switzerland AG
+| USE CASES FLYER
+time saving
+• Process is more efﬁcient
+• Before: check membership + 
+sort: 3min
+• After: scan + sort: 1min
+• Productivity increases of 20%
+Less time to record the stop
+Relevant data is available
+Fewer errors, easier onboarding
+
+Employee places the parcel in the respective dolley
+SORTING 
+PROCESS
+BENEFITS1.Reception of inbound 
+Chronopost bags at the dock 
+1 and packed by the driver
+2. Opening of the bags 
+thanks to the  bags’ lift, 
+already prioritizing postal 
+codes  
+3. Sorting and shipping the 
+products at the right 
+handling locations
+4. Scanning and sorting 
+Chronopost product by the 
+operators equipped with 
+ProGlove (one for depart-
+ment 29 and two for depart-
+ments 35/53), considering 
+the parcel’s size 
+time saving
+• Average stopwatch volume: 800
+• Before: scanning then sorting: 
+120min
+•  After scanning and sorting: 
+80min, 40min/day saved
+“
+”All workers are satisfied about the product’s lightness, as well as the 
+different type of wearables; perfectly adapted to their daily operations.
+less lifting
+• 800 parcels of 5kg, carried once 
+instead of twice  = 4000kg/night less
+• Scanners lightweight: 200g less 
+per/task
+Less repetitive tasks
+More ergonomics and recognition
+Jean-Claude Baron,
+Responsable Technique Supports Sécurité Sûreté, La Poste
+Solution rolled out  by our partner  integrator Isitec International
+
+SORTING 
+PROCESS
+BENEFITS1.Bulky goods are delivered 
+unsorted in an inbound 
+container 
+2. Associate scans article 
+and receives shipment 
+information  
+3. Associate places article 
+in the destination container 
+according to the postal code
+better ergonomics
+• 100% mobile associate due to 
+wearable technology
+• 100% hands free in all process 
+steps with ProGlove 
+• 95% user acceptance with best in 
+class ergonomics 
+“
+”Thanks to the Bulky Goods 2.0 and ProGlove projects we are no longer tied to 
+stationnary processing stations but can process bulky goods anywhere in the 
+hall. better efficiency
+• Signiﬁcant improvement in 
+efﬁciency (+ 30%) 
+• Dynamic adaptability of seasonal 
+deviations 
+Werner Kunert, Deputy Head of Warehouse
+“
+”I am no longer forced to wait 
+for the feeder and can start 
+processing at the point where 
+the bulky goods arrive.
+Jens Klostermann, 
+Bulky Baggage Handler
+Contact us:
+sales@proglove.com
+For more information:
+www.pr oglove.com
+@2020 Workaround GmbH All 
+rights reserved.  ProGlove is a 
+trademark of Workaround GmbH.  
+Pricing, specifications, and design 
+are subject to change without 
+notice.  Scanner, smartphone, or 
+tablet sold separately. All brand, 
+product, service names, and logos 
+are trademarks and/or egistered 
+trademarks of their respective 
+manufacturers and companies. 
+ProGlove builds the lightest, smallest, and 
+toughest barcode scanners in the world, 
+connecting workers to actionable information. 
+More than 500 renowned organizations in 
+manufacturing, production, logistics, and retail 
+use these smarter workforce solutions. 
+ProGlove was founded in December 2014 after 
+winning the Intel „Make it Wearable“ Challenge 
+in Silicon Valley and is backed by growth-fo -
+cused investors Summit Partners, DICP , and 
+Bayern Capital. ProGlove employs 200 people 
+from over 40 countries with offices in Munich, 
+Chicago, and Belgrade.
+More information is available at:  
+www.proglove.com.| USE CASES FLYER

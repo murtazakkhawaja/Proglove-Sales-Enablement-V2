@@ -1,0 +1,89 @@
+CASE STUDY
+NUMBERS
+PROGLOVE  customer since 1 warehouse
+ 538.195 sq ft / sqm 500,000 
+Number of shipped parcels / days
+5,500 average  1462021
+PROGLOVE  devices in use INDUSTRY
+RetailPROGLOVE SOLUTION
+LEO, MARK Display, MARK 3, 
+Hand Strap, Index Trigger, GatewayEnhancing Speed, 
+Efficiency, and Accuracy with 
+ProGlove at Book Depot 
+11,000 peak 
+season
+Book Depot Inc., a leading wholesaler and retailer of bargain books, has a strong presence throughout North America. 
+With various brands under its umbrella, including Book Depot, Book Outlet, Kidsbooks, and Spark Book Fairs, the 
+company handles a high volume of books daily, making maximum productivity crucial for their operations. Their 
+mission is to enchant the mind, one book at a time, while ensuring their customers receive top-quality service. About Book Depot Inc.
+The implementation of ProGlove at Book Depot yielded remarkable 
+outcomes, enhancing speed, efficiency, and accuracy across their 
+operations. The company experienced significant enhancements that 
+sparked a positive transformation in their workflows, which remains an 
+ongoing focus for continuous improvement.Summary CASE STUDY
+Book Depot identified areas for improvement in their day-to-day operations, 
+particularly in optimizing employee safety and streamlining workflows. 
+They acknowledged that outdated handheld scanners and netbooks 
+were impeding team members' mobility and efficiency during the shelf 
+picking process, resulting in longer takt time and suboptimal workflows. 
+In particular, ensuring the safety of employees working at heights of up to 
+7.5 meters was of utmost importance. To attain their objectives of speed, 
+efficiency, accuracy, and safety, Book Depot sought a solution that would 
+optimize processes and elevate worker productivity.Challenge at 
+Book Depot Inc.
+KEVIN
+Operations Manager, 
+Book Depot Inc.  
+"ProGlove has truly made a positive impact on our business, elevating our speed, efficiency, and accuracy. 
+With this technology, we can carry out our mission of enchanting the mind one book at a time with even 
+greater precision. Its implementation not only enables us to achieve our goals more efficiently but also 
+reinforces our commitment to delivering top-quality service to our valued customers."
+Areas of application for ProGlove at 
+Book Depot Inc.
+With the introduction of ProGlove, Book Depot experienced a remarkable 
+reduction in takt time. In the receiving area, where thousands of books are 
+processed daily, the ProGlove MARK 3 enabled the team to scan items from 
+inside the forklift, eliminating the need for separate handheld scanners. 
+This simplified their daily routine and reduced takt time by up to 8 seconds 
+per carton, allowing for faster processing and improved productivity. 
+Prioritizing employee safety, Book Depot adopted MARK 3 in their bulk 
+inventory management system. This implementation proved to be a game-
+changer for workers who operated at heights of up to 7.5 meters. The ability 
+to scan quickly and reliably from a distance, while freeing both hands, 
+empowered operators to remain within the machine's boundaries and 
+maintain focus. As a result, their safety while working at elevated heights 
+was ensured.Use Case 1: 
+MARK 3 for forklifts 
+& heightsCASE STUDY
+The shelf picking process underwent a major transformation with the 
+integration of ProGlove's LEO scanner. Designed specifically for nearfield 
+scanning tasks, it replaced the outdated wedge scanners previously used. 
+The introduction of tablets instead of netbooks increased the mobility and 
+flexibility of the staff, while also streamlining the process and reducing the 
+number of steps required. As a result, Book Depot achieved an impressive 
+4-second reduction in takt time per scan, significantly improving overall 
+efficiency. 
+In the auto sortation area, the ProGlove LEO scanners proved to be 
+invaluable. These advanced devices enabled team members to work hands-
+free, scanning barcodes at the destination and seamlessly pairing them 
+with the corresponding cartons. As a result, takt time was reduced by four 
+seconds per assigned tote, streamlining the sorting process and ensuring 
+efficient order fulfillment. Additionally, MARK Display helped them quickly 
+verify customer ID and destination and provided quick troubleshooting 
+capabilities for customer orders that required extra attention, further 
+enhancing accuracy and customer satisfaction. Use Case 2: 
+LEO, fastest scanner
+CASE STUDY
+The introduction of ProGlove MARK Display in the shipping process, proved 
+instrumental. This lightweight and slim technology, comfortably worn on 
+the back of employees' hands, seamlessly integrated into their tasks of 
+preparing books for shipment. The integration resulted in a remarkable 
+reduction of 8 seconds per package in takt time. As a result, Book Depot 
+gained the ability to ship thousands of additional units daily, ensuring swift 
+and precise order fulfillment to meet customer demands.Use Case 3: 
+MARK Display
+The implementation of ProGlove at Book Depot brought about remarkable results, enhancing speed, efficiency, 
+and accuracy across operations. Takt time saw a significant reduction of up to 18%, while the capacity for order 
+handling was greatly improved. The streamlining of workflows and simplification of processes eliminated the need 
+for outdated scanners. ProGlove not only improved worker safety through hands-free scanning but also optimized 
+overall operations, aligning perfectly with Book Depot's unwavering commitment to delivering quality service.Outlook

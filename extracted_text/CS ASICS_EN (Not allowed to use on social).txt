@@ -1,0 +1,140 @@
+CASE STUDY
+• Reduced error rate in picking
+• 15% - 20% improvement in 
+employee performance 
+• Increase in employee 
+satisfaction and retention
+• 27% Improvement in overall 
+process efficiency NUMBERS
+ProGlove customer since In Germany more than 
+250  
+logistics employees 2020
+>60
+Use of MARK scanners 
+in Germany and FranceRESULTSINDUSTRY
+Consumer GoodsPROGLOVE S OLUTION
+Wearable Scanner MARK 2 ASICS relies on 
+ProGlove  for:
+• packing stations
+• returns
+• order picking
+• High racks in combination 
+with forklift27% increase 
+in productivity in ASICS’ 
+European Distribution Center
+Retail
+75,000  m2 
+warehouse space
+ASICS is a global athletic footwear and apparel brand founded in 1949 in Japan. The company name is an acronym of 
+"Anima Sana In Corpore Sano" (A healthy mind in a healthy body) . The company's mission is to "Create Quality Lifestyles 
+through Intelligent Sports Technology". ASICS is one of the top ten sportswear manufacturers with global sales of 
+around 3.1 billion euros (2021). The company operates 1,900 stores worldwide and employs about 8,900 people.About ASICS
+More than ever, the retail industry needs speed and flexibility to ensure 
+smooth multichannel delivery to customers. To meet the needs of an ever-
+changing market environment, ASICS is testing and embracing innovative 
+technologies in its European Distribution Center (EDC) in Germany, and 
+its Southern European Distribution Center in France. Every shipment that 
+leaves the distribution center must be correct and on time, every single 
+time. Therefore, scanning must be fast and accurate. ASICS has been able 
+to optimize its picking and returns processing by making logistics faster, 
+easier, and more accurate with ProGlove wearable scanners. SummaryCASE STUDY
+Customer satisfaction, and the company's brand promise hinge on the 
+ability to deliver on-time and in-full (OTIF), every single time. Consistency 
+has been a challenge as ASICS has had to deal with rising labor costs, 
+turnover, increasing demand, and supply chain issues. In this multichannel 
+environment, distribution centers support both ASICS stores (B2B) and 
+online orders (B2C). ASICS previously used conventional barcode scanners, 
+which were heavy and were not designed ergonomically. They also required 
+awkward movements for repetitive tasks, which slowed the process and 
+increased the possibility of injury.
+Complete visibility into and control of the scanner fleet was a key concern 
+as ASICS also needed to avoid downtime and expenses caused by broken, 
+uncharged, or lost devices. Therefore, the company needed a solution that 
+could provide reliable data on the location, condition, and battery status of 
+all the scanners.Challenge at ASICS
+ASICS operates according to the Japanese Kaizen principle of continuous 
+improvement. Thus, they focuse heavily on the quality of operations, including 
+the distribution centers. There, the focus is on continuously monitoring the 
+processes in order to continually improve. They looked to technological 
+innovation to increase their visibility into warehouse operations.Improving quality
+CASE STUDY
+ASICS, like so many retail companies, also has difficulty recruiting 
+and retaining qualified personnel. They have learned that the working 
+environment is an issue central to worker satisfaction. That's why the 
+company was very interested in finding an ergonomic solution for its 
+many scanning processes. A safer working environment which requires 
+less exertion to complete the assigned tasks is much more pleasant and 
+attractive, and positively influences word of mouth.Attracting and 
+retaining employees
+Needing an innovative solution to barcode scanning, ASICSS looked to state-of-the-art technology to increase both 
+speed and efficiency. It’s important to understand that their picking process consists of low runners (items that 
+do not have to be picked often) , and high runners which are picked frequently during the day and must be shipped 
+quickly.
+The picking of low runners is therefore fully automated with robots. However, the situation is different for high 
+runners. They have to be picked frequently during the day and shipped quickly. This requires a higher speed than 
+the robots can provide and so is accomplished by the employees because they are much more agile. ProGlove's 
+lightweight, wearable scanners are completely hands free, allowing workers to scan goods or packages much faster 
+and more ergonomically. ProGlove in use at ASICS"To meet the major challenges of the new retail and e-commerce landscape and live up to our principle 
+of continuous improvement, we are always looking for innovative solutions that improve our efficiency 
+and make us even more attractive as an employer. With ProGlove, we have succeeded in doing both. 
+The work ergonomics of our employees have improved significantly and we have been able to increase 
+our process efficiency in the packing process by an incredible 27%."
+MICHAEL GRYSZKO-PRATTES , 
+Director of Distribution, ASICS Europe B.V.
+Hands-free scanning complements robotics
+CASE STUDY
+Online B2C order processing and returns are even more demanding than 
+the B2B process for supporting the retail stores. For a distribution center 
+like the ASICS EDC, this means huge volumes of returns every day with 
+enormous scanning requirements. Each returned package must be opened, 
+the goods inspected and - if the return is in order and received within the 
+required period - put back into storage and the proper information sent so 
+the customer’s account can be updated. In order for this to happen error-
+free, the scanners must capture data accurately and reliably.
+ProGlove supports ASICS in making the time-consuming processing 
+of returns faster and more efficient. Employees are able to work hands 
+free, easily picking up the packages and the tools to unpack them, while 
+seamlessly operating the terminals. This would be impossible with the 
+limitations of a handheld barcode scannerMastering the 
+high demands of 
+e-commerce orders 
+and returns
+High turnover and the shortage of skilled workers are major problems 
+for ASICS and it raises the important question: How can we retain our 
+employees and attract new ones? Innovative tools like ProGlove's scanners 
+make work easier, contribute to higher employee satisfaction and improve 
+performance by 15-20%. Additionally, employees know when a warehouse 
+has adopted superior technology, and it feeds word of mouth, which is an 
+incredibly strong influencer. This is how employee-centric technology gives 
+ASICS a decisive edge as an employer. Differentiation in 
+the competition 
+for labor
+To keep up with increasing demand, ASICS needed to take a close look at 
+labor-intensive picking and packing. For these analytics, the ProGlove MARK 
+scanners and the ProGlove Gateway provide fundamental data that goes 
+well beyond just barcode content. Now, the company can combine all data 
+from the ProGlove devices and conduct meaningful process analyses. The 
+gateway can also be used to add, change, or remove functions as required. 
+In this way, ASICS brings together data from the scanners, robotics, and the 
+WMS for analytical evaluation. This creates the basis for optimizing every 
+process step including warehouse design.Analytics 
+and process 
+optimizationThe "units picked per hour" (UPH) factor is the metric of speed. It measures 
+how many items an employee picks per hour. With ProGlove’s MARK 
+scanners, ASICS was able to increase its UPH rate by 27%. This not only 
+reduced pure scanning time, it also helped improve overall process 
+efficiency.Increasing the pick 
+rate
+CASE STUDY
+Benefits
+Yield and ROI depend on real-time inventory management. By using ProGlove scanners, ASICS was able 
+to improve the quality and efficiency of its warehouse processes and achieve a 27% improvement in 
+overall productivity. A 27% increase in overall productivity
+The availability and reliability of scan data is of paramount importance to ASICS. The company was able 
+to drastically reduce its scanning errors. More accurate scans combined with more barcodes scanned 
+per shift thus lead to less rescans and less workflow interruptions.Minimizing errors
+ProGlove's innovative barcode scanner and technology allowed ASICS to capture not only product 
+information, but also data from the shop floor, such as product location. All this is integrated within the 
+WMS and synchronized with picking lists. This integration has enabled ASICS to meet the challenges 
+of the new retail and e-commerce landscape, making processes such as forecasting and inventory 
+management much more accurate.Integration with the inventory management system

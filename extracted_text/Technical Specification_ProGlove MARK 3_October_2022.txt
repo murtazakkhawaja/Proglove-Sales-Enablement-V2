@@ -1,0 +1,144 @@
+Technical Specification  
+ 
+Product specifications are subject to change without notice. For updated version of product specifications visit: www.proglov e.com  
+Workaround GmbH, Rupert -Mayer -Str. 44, Building 64.08, 81379 München  
+October  2022 ProGlove MARK 3  
+(multi range)  
+ 
+WIRELESS COMMUNICATION  
+BLUETOOTH RADIO  Supports Bluetooth Low Energy 4.0, 4.1, 4.2, 5.0   
+FREQUENCY RANGE  
+ 
+MAX RADIO -FREQU. POWER 
+TRANSMITTED   Frequency band used BLE: 2400 -2483.5 MHz  
+ 
+< 20dBm   
+TRANSMISSION RANGE  3rd party device  ProGlove Gateway  
+Free field: 40 m (131 ft )**  Free field: 70 m (230 ft )**  
+Indoor: 10 -20 m (33 -66 ft)**  Indoor: 30 -40 m (100 -130 ft)**  
+ 
+**may decrease in industrial environments (e.g. due to walls, metal 
+shelving, mac hines)  
+ 
+BARCODE DECODING CAPABILITIES  
+1D Auto decodes all standard 1D codes including GS1 DataBar linear codes 
+et al.  
+2D PDF417, MicroPDF417, Data matrix, QR Code, Micro QR Code, Aztec, 
+MaxiCode, et al.  
+POSTAL  US PostNet, US Planet, UK Postal, Australia Postal, Japan Postal, Dutch 
+Postal (KIX) et Al.  
+ 
+ELECTRICAL PROPERTIES  
+BATTERY  670 mAh, Lithium polymer (rechargeable)  
+CHARGING TIME  2 hours with ProGlove Charging Station  
+OPERATING TIME / SCANS  approx. 12000 scans depending on the applicati on and environmental 
+conditions  
+ 
+ 
+MECHANICAL PROPERTIES  
+DIMENSIONS  50 x 45 x 17 mm (1.47 x 1.77 x 0.67 in)  
+WEIGHT  39 g (1. 38 oz)  
+ 
+ENVIRONMENTAL CONDITIONS  
+DROP RESISTANCE  Resists several drops from 2 m (6.5 ft) onto concrete  
+TUMBLES  2000 tumbles from 0.5 m  
+PROTECTION AGAINST DUST 
+AND WATER  IP 65  
+TEMPERATURE  Operating Temperature : -20°C - 50°C ( -4°F – 122°F)  
+Charging Temperature: 5°C - 40°C (41°F – 104°F)  
+Storage Temperature: -20°C - 60°C ( -4°F – 140°F)  
+HUMIDITY  5% - 95% non condensing  
+ELECTROSTATIC DISCHARGE 
+(ESD)  ±8kVdc air discharge  
+±4kVdc contact discharge  
+ 
+INTERFACES  
+BLUETOOTH  HID Profiles  
+ANDROID   HID, Insight Mobile (Android) (App/SDK)  
+IOS  HID, Insight Mobile (iOS) (SDK)  
+USB ProGlove Gateway  
+ 
+SCANNER PROPERTIES  
+RESOLUTION  2688 x 1520  
+READING FIELD OF VIEW  Horizontal: 37°, vertical: 21°  
+SKEW, PITCH & ROLL  Skew tolerance: ±60°  
+Pitch tolerance: ±60°  
+Roll tolerance: 360°  
+AMBIENT LIGHT  0 – 107,639 lux  
+AIMER  Green Laser 520nm  
+ 
+ 
+UTILITIES & ACCESSORIES*  
+CONFIGURATION & DEVICE 
+MANAGEMENT   https://insight.proglove.com    
+DIGITAL DOCUMENTATION  https://docs.proglove.com   
+ANDROID INTEGRATION  Insight Mobile : Provides a full featured integration  for Android 
+enterprise  applications . 
+GATEWAY INTEGRATION  ProGlove  Gateway: Hardware connector to enable the full capabilities of 
+the ProGlove Ecosystem via USB -Interface.  
+TRIGGER  Scanner can be triggered only with ProGlove wearables (Hand Strap, 
+Index -Trigger, Reel et al.)  
+*More Information on www.proglove.com   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SCAN RANGES  
+Minimum distance determined by symbol length, scan -angle and environmental conditions (e.g.  
+lightning, printing quality, contrast et al.).  
+ 
+MULTI RANGE  
+3 mil Code 39  Near Distance: 2.7 in./6.9 cm; Far Distance: 16.2 in./41.1 cm  
+5 mil Code 39  Near Distance: 2.5 in./6.4 cm; Far Distance: 26.6 in./67.6 cm  
+5 mil PDF417  Near Distance: 2.8 in./7.1 cm; Far Distance: 19.6 in./49.8 cm  
+6.7 mil PDF417  Near Distance: 2.6 in./6.6 cm; Far Distance: 25.6 in./65.0 cm  
+10 mil DataMatix  Near Distance: 2.2 in./5.6 cm; Far Distance: 27.1 in./68.8 cm  
+100% UPCA (13 mil)  Near Distance: 2.5 in./6.4 cm; Far Distance: 71 in./180 cm  
+15 mil Code 128  Near Distance: 7.2 in./18.2 cm; Far Distance: 72 in./182.9 cm  
+20 mil Code 39  Far Distance: 109 in./276.9 cm  
+55 mil Code 39  Far Distance: 293 in./744.2 cm  
+100 mil Code 39  Far Distance: 554 in./1407.2 cm  
+100 mil DataMatrix  Far Distance: 270 in./685.8 cm  
+ 
+ 
+WARRANTY & SLA  
+WARRANTY  12 month s factory warranty  
+PROGLOVE CARE  36 and 60  month s maintenance contract s available. For more 
+information please contact your ProGlove  representative or visit 
+https://proglove.com   
+ 
+SAFETY & REGULATORY  
+RADIO AND 
+ELECTROMAGNETIC 
+COMPATIBILITY  EU: 2014/53/EU Radio Equipment Directive (RED)  
+FCC ID: 2AOJL - MARK -3 
+IC: 23450 -MARK3  
+ELECTRICAL SAFETY  EU: acc. to 2014/53/EU Radio Equipment Directive (RED)  
+EN 62368 -1:2014 + A11:2017  
+ 
+INTERNATIONAL: IEC 62368 -1:2014  
+ 
+US: UL 6 2368 -1 and CAN/CSA C22.2 No. 6 2368 -1 
+LASER CLASSIFICATION  Multi range: According to EN 60825 -1: 2014 and IEC 60825 -1 (Ed. 3.0) 
+Laser class 2 device. Caution Laser Radiation - Do not stare into beam.  
+ENVIRONMENTAL  RoHS Directive 2011/65/EU; Amendment 2015/863, REACH SVHC 
+1907/2006, WEEE  
+ 
+COUNTRY CERTIFICATION  
+ 
+Regulatory markings are affixed to the device, indicating that the radio modules are approved for use in 
+the following regions: European Economic Area*, Canada, United States of America, United Mexican 
+States, China.  
+ 
+Detailed information on the regulatory  markings can be found in the Declaration of Conformity (DoC) at 
+www.proglove.com  
+ 
+*CE is valid in the European Economic Area and additional countries: Austria, Belgium, Bulgaria, Croatia, 
+Republic of Cyprus, Czech R epublic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, 
+Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, 
+Slovenia, Spain, Sweden, United Kingdom, Iceland, Liechtenstein, Switzerland and N orway.
