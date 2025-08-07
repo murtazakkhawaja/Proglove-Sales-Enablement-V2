@@ -62,16 +62,42 @@ if prompt := st.chat_input("Ask a question..."):
 
     with st.spinner("Thinking..."):
         try:
-            response = chatbot.ask_question(prompt)
+            result = chatbot.ask_question(prompt)
+            # If chatbot accidentally returns a string, wrap it
+            if isinstance(result, str):
+                response = {"answer": result, "sources": []}
+            else:
+                response = result
         except Exception as e:
-            response = f"Error: {e}"
+            response = {
+                "answer": f"Error: {e}",
+                "sources": []
+            }
+
+
+    # Append sources to answer if available
+    answer_text = response["answer"]
+    if response.get("sources"):
+        sources = "\n".join([f"- {src}" for src in response["sources"]])
+        answer_text += f"\n\n**Referenced Document(s):**\n{sources}"
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # Add assistant response
+    sources = response.get("sources", [])[:2]
+    answer_text = response["answer"]
+
+    # Prepare display string with optional sources
+    display_text = answer_text
+    if sources:
+        display_text += "\n\n**Referenced Document(s):** " + ", ".join(sources)
+
+    # Add assistant response to session
     st.session_state.messages.append({
-        "role": "assistant", "content": response, "timestamp": timestamp
+        "role": "assistant", "content": display_text, "timestamp": timestamp
     })
 
+    # Show in chat
     with st.chat_message("assistant"):
-        st.markdown(f"{response}\n\n*{timestamp}*")
+        st.markdown(f"{display_text}\n\n*{timestamp}*")
+

@@ -29,21 +29,22 @@ class CompanyChatbot:
     def ask_question(self, user_query: str) -> str:
         return self._ask(user_query)
 
-    def _ask(self, user_query: str) -> str:
+    def _ask(self, user_query: str) -> Dict:
         try:
             query_embedding = get_openai_embedding(user_query)
         except Exception as e:
-            return f"Error embedding question: {e}"
+            return {"answer": f"Error embedding question: {e}", "sources": []}
 
         chunks = self.db.search_similar_chunks(query_embedding, top_k=self.top_k, threshold=0.25)
-        if not chunks:
-            return "Sorry, I couldn't find any relevant information in the documents."
-        if not chunks:
-            return "Sorry, I couldn't find any relevant information in the documents.\n\n(Debug: No chunks above similarity threshold.)"
 
-        # TEMP DEBUG: return top chunks to verify what was retrieved
-        debug_chunk_text = "\n\n".join([f"[{c['similarity']:.2f}] {c['text']}" for c in chunks])
-        # return f" Found top chunks:\n\n{debug_chunk_text}"  # for testing can uncomment
+        if not chunks:
+            return {
+                "answer": "Sorry, I couldn't find any relevant information in the documents.",
+                "sources": []
+            }
+
+        # Collect unique PDF names
+        pdf_sources = list({c['metadata']['pdf_name'] for c in chunks})
 
         context_text = "\n\n".join(
             [f"[Chunk {i+1} from {c['metadata']['pdf_name']}]\n{c['text']}" for i, c in enumerate(chunks)]
@@ -74,7 +75,12 @@ class CompanyChatbot:
             final_answer = f"OpenAI API error: {e}"
 
         self._log_interaction(user_query, context_text, final_answer)
-        return final_answer
+
+        return {
+            "answer": final_answer,
+            "sources": pdf_sources
+        }
+
 
     def _log_interaction(self, query: str, context: str, response: str):
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
