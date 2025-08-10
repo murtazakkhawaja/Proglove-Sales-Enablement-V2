@@ -1,3 +1,4 @@
+[Page 1]
 Technical Specification  
  
 Product specifications are subject to change without notice. For updated version of product specifications visit: www.proglov e.com  
@@ -142,3 +143,4 @@ www.proglove.com
 Republic of Cyprus, Czech R epublic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, 
 Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, 
 Slovenia, Spain, Sweden, United Kingdom, Iceland, Liechtenstein, Switzerland and N orway.
+

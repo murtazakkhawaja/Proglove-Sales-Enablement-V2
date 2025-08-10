@@ -1,7 +1,9 @@
+[Page 1]
 Innovating 
 human-centered  
 productivityLOGISTICS
 
+[Page 2]
 • Essential to the economy                                                                3
 • 3 challenges that are driving the need for warehouse productivity       4
 • Productivity starts with ProGlove                                                6
@@ -19,6 +21,8 @@ productivityLOGISTICS
 • GXO Success Story                                                                                     19
 • Planzer Success Story                                                                                20
 • Kickstart your productivity                                                            21CONTENT
+
+[Page 3]
 3Essential to the economy 
 Bringing goods and services to market is es -
 sential to the functioning of our economy. 
@@ -39,7 +43,9 @@ key leverage points as logistics and transporta -
 tion look to overcome these hurdles and forge 
 greater success. ProGlove’s vision and innova -
 tion are ushering in a new age of productivity, 
-predictability, and profitability. 
+predictability, and profitability.
+
+[Page 4]
 43 challenges that are driving the need 
 for warehouse productivity
 1. Improving customer satisfaction The ware -
@@ -66,6 +72,7 @@ racy of easy documentation, and provides better,
 real-time data to aid inventory management. 
 4
 
+[Page 5]
 553. Increasing worker safety  The reality of 
 the shop floor is that there are significant 
 opportunities to increase worker safety, 
@@ -76,7 +83,9 @@ lightweight, ergonomic scanners eliminate
 these issues and ensure that workers always 
 have both hands available. Acoustic, visual, and 
 haptic feedback on the same device boosts 
-productivity. 
+productivity.
+
+[Page 6]
 6Productivity starts 
 with ProGlove
 ProGlove’s innovation solves 
@@ -90,8 +99,9 @@ ergonomic barcode scanners is
 almost instantaneous - it is almost 
 instinctual. Notably, our devices 
 enjoy a 90+% worker satisfaction 
-rating. 
+rating.
 
+[Page 7]
 7
 CUSTOMERS REPORT 
  27% 
@@ -101,6 +111,8 @@ reduction in
 errors 6  seconds 
 saved per scan
 7
+
+[Page 8]
 8ProGlove scanners are lightweight, 
 ergonomically designed, and wearable.  Which 
 means that workers always have both hands 
@@ -124,8 +136,9 @@ our scanners streamline the documentation
 process. The devices provides real-time 
 guidance and feedback to workers, ensuring 
 they follow the correct procedures and reducing 
-the risk of errors or inconsistencies. 
+the risk of errors or inconsistencies.
 
+[Page 9]
 9
 Enhanced mobility 
 With our wearable scanners, workers can stay 
@@ -145,7 +158,9 @@ delays.
 Additionally, new data from the shop floor, 
 available with ProGlove scanners, provides 
 information to streamline all processes and 
-layout. 
+layout.
+
+[Page 10]
 10ProGlove optimizes 
 warehouse processes 
 1
@@ -156,6 +171,8 @@ Sorting  4
 6Process Quality Control 
 Cross-Docking  
 AGV/AMG collaboration  Incoming goods / Outgoing goods
+
+[Page 11]
 11Picking1
 Challenge
 Warehouses store products high, low, and 
@@ -179,6 +196,8 @@ hands free.  Benefits
 4 seconds per scan saved
 Adopted by
 11
+
+[Page 12]
 1212Sorting2
 Challenge
 Logistics centers experience a wide range 
@@ -202,6 +221,8 @@ Elimination of unproductive scans
 10.000h/year time savings 
 Adopted by
 Deutsche Post
+
+[Page 13]
 13133
 Challenge
 Increasing demand and increasing returns 
@@ -227,6 +248,7 @@ drivers
 Adopted byIncoming goods/
 outgoing goods
 
+[Page 14]
 1414Process quality control 4
 Challenge
 The efficiency and productivity of the 
@@ -250,6 +272,7 @@ up 6% time savings/day
 100,000€ savings/year
 Adopted by
 
+[Page 15]
 1515Cross-Docking 5
 Challenge
 Operationally, unloading an inbound vehicle 
@@ -272,6 +295,7 @@ accuracy. Benefits
 5 seconds faster per scan
 Adopted by
 
+[Page 16]
 1616AGV/AMG collaboration 6
 Challenge
 Operations looks to technology and automation 
@@ -292,8 +316,11 @@ is available today. Benefits
 >6x faster picking 
 Adopted by
 
+[Page 17]
 17
 ProGlove Success Story
+
+[Page 18]
 18Challenge
 The booming e-commerce business has caused a 
 steep increase in shipment volumes. DHL needed 
@@ -323,7 +350,9 @@ comes down to shipping more, minimizing errors, and
 enhancing process quality.."
 DR. SIMON DEYMAN  
 Vice President Operations 
-Parcel Hubs, DHL  
+Parcel Hubs, DHL
+
+[Page 19]
 19
 "We’re constantly exploring new technology that enhances 
 the accuracy, efficiency and safety of our operations. 
@@ -352,7 +381,9 @@ contractual obligations.
 Result
 GXO saved 6 seconds per pick, and gained 10% in 
 productivity. They experienced a 75% reduction in 
-errors per million units picked.  
+errors per million units picked.
+
+[Page 20]
 20Planzer Challenge
 Planzer’s warehouses abut railway platforms, and 
 every morning approximately 25 cars of products 
@@ -380,6 +411,8 @@ technologies that can simplify
 our processes and also make the everyday work more 
 pleasant for our employees. ProGlove has now been rolled 
 out in all our handling locations."
+
+[Page 21]
 21Kickstart your productivity
 Take the ProGlove Challenge
 info@proglove.com
@@ -389,3 +422,4 @@ workers, our scanners vs yours. We call it the ProGlove
 Challenge. There’s very little to lose and a lot of productivity 
 to gain.
 21
+

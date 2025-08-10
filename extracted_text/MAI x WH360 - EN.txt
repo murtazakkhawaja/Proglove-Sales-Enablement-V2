@@ -1,3 +1,4 @@
+[Page 1]
 ENTER THE ERA OF
 Wearable 
 Intelligence
@@ -15,4 +16,7 @@ guidance and Warehouse 360’s analytics to
 optimize fulfillment, enhance efficiency, and improve
 safety-seamlessly integrating with existing WMS
 and enterprise systems
+
+[Page 2]
 • Eliminate manual reports
+

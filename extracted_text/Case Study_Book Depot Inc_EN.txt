@@ -1,3 +1,4 @@
+[Page 1]
 CASE STUDY
 NUMBERS
 PROGLOVE  customer since 1 warehouse
@@ -12,6 +13,8 @@ Efficiency, and Accuracy with
 ProGlove at Book Depot 
 11,000 peak 
 season
+
+[Page 2]
 Book Depot Inc., a leading wholesaler and retailer of bargain books, has a strong presence throughout North America. 
 With various brands under its umbrella, including Book Depot, Book Outlet, Kidsbooks, and Spark Book Fairs, the 
 company handles a high volume of books daily, making maximum productivity crucial for their operations. Their 
@@ -38,6 +41,8 @@ Book Depot Inc.
 With this technology, we can carry out our mission of enchanting the mind one book at a time with even 
 greater precision. Its implementation not only enables us to achieve our goals more efficiently but also 
 reinforces our commitment to delivering top-quality service to our valued customers."
+
+[Page 3]
 Areas of application for ProGlove at 
 Book Depot Inc.
 With the introduction of ProGlove, Book Depot experienced a remarkable 
@@ -73,6 +78,8 @@ verify customer ID and destination and provided quick troubleshooting
 capabilities for customer orders that required extra attention, further 
 enhancing accuracy and customer satisfaction. Use Case 2: 
 LEO, fastest scanner
+
+[Page 4]
 CASE STUDY
 The introduction of ProGlove MARK Display in the shipping process, proved 
 instrumental. This lightweight and slim technology, comfortably worn on 
@@ -87,3 +94,4 @@ and accuracy across operations. Takt time saw a significant reduction of up to 1
 handling was greatly improved. The streamlining of workflows and simplification of processes eliminated the need 
 for outdated scanners. ProGlove not only improved worker safety through hands-free scanning but also optimized 
 overall operations, aligning perfectly with Book Depot's unwavering commitment to delivering quality service.Outlook
+

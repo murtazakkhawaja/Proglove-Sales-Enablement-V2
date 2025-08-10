@@ -1,3 +1,4 @@
+[Page 1]
 | USE CASES FLYER
 Sorting is the major task at post and parcel 
 services. Highly automated and commonly 
@@ -19,6 +20,8 @@ USE CASES
 MARK Display
 MARK mid range
 MARK mid range
+
+[Page 2]
 SORTING 
 PROCESS
 BENEFITS1.Parcels arrive by truck and 
@@ -61,6 +64,7 @@ Less time to record the stop
 Relevant data is available
 Fewer errors, easier onboarding
 
+[Page 3]
 Employee places the parcel in the respective dolley
 SORTING 
 PROCESS
@@ -101,6 +105,7 @@ Jean-Claude Baron,
 Responsable Technique Supports Sécurité Sûreté, La Poste
 Solution rolled out  by our partner  integrator Isitec International
 
+[Page 4]
 SORTING 
 PROCESS
 BENEFITS1.Bulky goods are delivered 
@@ -135,6 +140,8 @@ processing at the point where
 the bulky goods arrive.
 Jens Klostermann, 
 Bulky Baggage Handler
+
+[Page 5]
 Contact us:
 sales@proglove.com
 For more information:
@@ -165,3 +172,4 @@ from over 40 countries with offices in Munich,
 Chicago, and Belgrade.
 More information is available at:  
 www.proglove.com.| USE CASES FLYER
+

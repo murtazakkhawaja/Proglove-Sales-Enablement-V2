@@ -1,3 +1,4 @@
+[Page 1]
 CASE STUDY
 • Reduced error rate in picking
 • 15% - 20% improvement in 
@@ -25,6 +26,8 @@ European Distribution Center
 Retail
 75,000  m2 
 warehouse space
+
+[Page 2]
 ASICS is a global athletic footwear and apparel brand founded in 1949 in Japan. The company name is an acronym of 
 "Anima Sana In Corpore Sano" (A healthy mind in a healthy body) . The company's mission is to "Create Quality Lifestyles 
 through Intelligent Sports Technology". ASICS is one of the top ten sportswear manufacturers with global sales of 
@@ -57,6 +60,8 @@ improvement. Thus, they focuse heavily on the quality of operations, including
 the distribution centers. There, the focus is on continuously monitoring the 
 processes in order to continually improve. They looked to technological 
 innovation to increase their visibility into warehouse operations.Improving quality
+
+[Page 3]
 CASE STUDY
 ASICS, like so many retail companies, also has difficulty recruiting 
 and retaining qualified personnel. They have learned that the working 
@@ -82,6 +87,8 @@ our process efficiency in the packing process by an incredible 27%."
 MICHAEL GRYSZKO-PRATTES , 
 Director of Distribution, ASICS Europe B.V.
 Hands-free scanning complements robotics
+
+[Page 4]
 CASE STUDY
 Online B2C order processing and returns are even more demanding than 
 the B2B process for supporting the retail stores. For a distribution center 
@@ -125,6 +132,8 @@ scanners, ASICS was able to increase its UPH rate by 27%. This not only
 reduced pure scanning time, it also helped improve overall process 
 efficiency.Increasing the pick 
 rate
+
+[Page 5]
 CASE STUDY
 Benefits
 Yield and ROI depend on real-time inventory management. By using ProGlove scanners, ASICS was able 
@@ -138,3 +147,4 @@ information, but also data from the shop floor, such as product location. All th
 WMS and synchronized with picking lists. This integration has enabled ASICS to meet the challenges 
 of the new retail and e-commerce landscape, making processes such as forecasting and inventory 
 management much more accurate.Integration with the inventory management system
+

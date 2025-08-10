@@ -1,3 +1,4 @@
+[Page 1]
 CASE STUDY
 • Lower error rate in the 
 picking process
@@ -25,6 +26,8 @@ picking for stores and e-commerceSPAR achieves a 15%
 improvement in productivity 
 with ProGlove
 scans per hour up to
+
+[Page 2]
 The SPAR Austria Group operates food and sports retail stores, and shopping centers in Austria and 7 neighboring 
 countries. They also have a burgeoning e-commerce business. Gross sales of the entire group grew by a total of 
 +4.7% to 17.37 billion euros in 2021. SPAR was particularly successful in Austria, where it further extended its market 
@@ -65,6 +68,8 @@ SPAR Austria
 "From the very first appointment with ProGlove, we were immediately convinced by the innovative scanner solutions. 
 After successful tests in different scenarios, we were quickly convinced of the increased efficiency and high 
 acceptance among employees. We are definitely impressed by the unique ergonomics."
+
+[Page 3]
 Display directly on the back of the hand
 The picking carts that the pickers use to go through the shelves contain the 
 boxes for the orders from the different stores. Up to 200 different products 
@@ -98,6 +103,8 @@ been created here to sustainably handle the warehousing and distribution
 of refrigerated goods for all of SPAR. Use Case 2:
 Picking for store 
 delivery
+
+[Page 4]
 CASE STUDY
 SPAR sets new standards in logistics with 
 cutting-edge technology
@@ -123,6 +130,8 @@ to the workers no matter where they are on the shop floor. Feedback on
 scans (e.g., OK / NOK) are received optically, haptically, and acoustically, 
 eliminating unnecessary interruptions and guiding workers through the 
 picking process faster.
+
+[Page 5]
 CASE STUDY
 Improving ergonomics and attracting employees
 Vorcfhdorf’s central local has made it the logical choice for distribution 
@@ -151,6 +160,8 @@ the wearables are particularly beneficial, as employees can lift and pack the
 beverage bottles and packages much more easily, securely, and safely with 
 two hands.Use Case 3:
 Wine World
+
+[Page 6]
 CASE STUDY
 Based on the success of the project in Austria, the Group is considering introducing the MARK devices 
 into its locations in Hungary, Slovenia and Italy. Initial tests are already underway. The rollout 
@@ -160,3 +171,4 @@ and ranges, and is therefore particularly suitable for use in combination with t
 in SPAR warehouses. As the fastest, lightest and most versatile solution, MARK 3 optimizes hands-free 
 scanning within the supply chain and guarantees high scanning speed as well as a smooth and flexible 
 workflow even from a forklift.Outlook
+

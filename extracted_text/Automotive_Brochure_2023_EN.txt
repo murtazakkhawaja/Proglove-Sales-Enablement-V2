@@ -1,7 +1,9 @@
+[Page 1]
 Innovating 
 human-centered  
 productivityAUTOMOTIVE
 
+[Page 2]
 • Demand is accelerating                                                                3
 • 3 challenges that are driving the need for warehouse productivity       4
 • Productivity starts with ProGlove                                                6
@@ -19,6 +21,8 @@ productivityAUTOMOTIVE
 • Volkswagen Success Story                                                                        19
 • Mercedes Benz Vans Success Story                                                        20
 • Kickstart your productivity                                                           21CONTENT
+
+[Page 3]
 3Demand is accelerating
 The automotive industry is in a transformative era, 
 where the status quo is being redefined by emerging 
@@ -37,7 +41,9 @@ tools; and new solutions. Productivity must increase
 exponentially. Existing technology is simply not up to 
 the task and has nothing left to offer. Revolutions, such 
 the dark warehouse, are many years away. Warehouse 
-operations needs answers today.     
+operations needs answers today.
+
+[Page 4]
 43 challenges that are driving the need 
 for warehouse productivity
 1. The incredible range of products.  As the 
@@ -61,6 +67,7 @@ is essential. As demand, complexity, and
 competition increase, so do the challenges. 
 4
 
+[Page 5]
 5 53. An unprecedented labor shortage.  
 This includes both skilled workers and 
 professionals. The shortage of labor is not 
@@ -70,8 +77,9 @@ and other technical roles. Both retention
 and recruitment are suffering. This shortage 
 leads to delays in production, increased 
 labor costs, and a decrease in overall 
-productivity. 
+productivity.
 
+[Page 6]
 6Productivity starts 
 with ProGlove
 ProGlove’s innovation solves 
@@ -85,8 +93,9 @@ ergonomic barcode scanners is
 almost instantaneous - it is almost 
 instinctual. Notably, our devices 
 enjoy a 90+% worker satisfaction 
-rating. 
+rating.
 
+[Page 7]
 7
 CUSTOMERS REPORT 
  27% 
@@ -96,6 +105,8 @@ reduction in
 errors 6  seconds 
 saved per scan
 7
+
+[Page 8]
 8ProGlove scanners are lightweight, 
 ergonomically designed, and wearable.  Which 
 means that workers always have both hands 
@@ -119,8 +130,9 @@ our scanners streamline the documentation
 process. The devices provides real-time 
 guidance and feedback to workers, ensuring 
 they follow the correct procedures and reducing 
-the risk of errors or inconsistencies. 
+the risk of errors or inconsistencies.
 
+[Page 9]
 9
 Enhanced mobility 
 With our wearable scanners, workers can stay 
@@ -140,7 +152,9 @@ delays.
 Additionally, new data from the shop floor, 
 available with ProGlove scanners, provides 
 information to streamline all processes and 
-layout. 
+layout.
+
+[Page 10]
 10ProGlove optimizes automotive 
 and after-sales processes 
 1
@@ -154,6 +168,8 @@ CKD-Packaging
 PRODUCTIONPRODUCTIONPRODUCTION
 PRODUCTIONPRODUCTIONPRODUCTION AFTER-SALES
 AFTER-SALES
+
+[Page 11]
 11Assembly line1
 Challenge
 Assembly lines are meant to move fast, 
@@ -178,6 +194,7 @@ Savings per assembly line:
 Adopted by
 11
 
+[Page 12]
 1212Sequencing2
 Challenge
 Sequencing is managing the precise order of 
@@ -200,6 +217,7 @@ ensuring accurate and efficient process flow.Benefits
 6 seconds faster per scan
 Adopted by
 
+[Page 13]
 13 13Staging3
 Challenge
 The success of staging depends on maintaining 
@@ -216,6 +234,7 @@ complexity of component parts.Benefits
 4 seconds faster per scan
 Adopted by
 
+[Page 14]
 1414Picking4
 Challenge
 Storing, finding, and retrieving components 
@@ -235,6 +254,7 @@ efficiency, and enhances worker safety. Benefits
 50 less wrong scans / 1000 scans
 Adopted by
 
+[Page 15]
 15 15Incoming goods/
 outgoing goods5
 Challenge
@@ -254,6 +274,7 @@ photo with the same device, cuts process time. Benefits
 Savings: 18 seconds / package  
 Adopted by
 
+[Page 16]
 1616CKD-Packaging6
 Challenge
 Complete Knock Down (CKD) shipments require 
@@ -269,8 +290,11 @@ way communications. Benefits
 4 seconds faster per scan
 Adopted by
 
+[Page 17]
 17
 ProGlove Success Story
+
+[Page 18]
 18Challenge
 AUDI needed to demonstrably increase the 
 speed and accuracy of barcode scanning 
@@ -294,6 +318,8 @@ scanners are wearable and accurate, and enable
 fluid, uninterrupted processes."
 HARTMUT BARTSCH
 Head of CKD Packing, AUDI
+
+[Page 19]
 19
 "We chose ProGlove scanners because the 
 devices worked flawlessly during the pilot. 
@@ -321,7 +347,9 @@ continuing to roll out these hands-free scanners
 to more processes and sites. Saving even two 
 seconds, and maybe four seconds per scan, 
 translates into significant productivity gains with 
-enormous ROI implications.  
+enormous ROI implications.
+
+[Page 20]
 20Mercedes Benz Vans Challenge
 Mercedes-Benz Vans needed an accurate and 
 efficient way to identify issues (such as inefficiencies 
@@ -355,6 +383,8 @@ among workers by significantly improving ergonomics and
 simplifying processes. By using ProGlove's Insight software 
 platform, we will also be able to measure 
 these improvements on the shop floor."
+
+[Page 21]
 21Kickstart your productivity
 Take the ProGlove Challenge
 info@proglove.com
@@ -364,3 +394,4 @@ workers, our scanners vs yours. We call it the ProGlove
 Challenge. There’s very little to lose and a lot of productivity 
 to gain.
 21
+

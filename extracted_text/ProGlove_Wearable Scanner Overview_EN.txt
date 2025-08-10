@@ -1,3 +1,4 @@
+[Page 1]
 Wearable Scanner Family
 Compatible with your 
 OS (Android, Windows, 
@@ -16,6 +17,8 @@ Scan the QR Code or contact us for more information:
 info@proglove. com
 www.proglove.comProGlove
 ProGloveGET IN TOUCH
+
+[Page 2]
 50 x 45 x 17 mm
 35g
 50 x 45 x 17 mm
@@ -69,3 +72,4 @@ IP434,000 scans*
 Guidance  - Optic, acoustic, haptic feedback
 Sensor  - Scan events, Movement, Device metadata
 Connectivity  - BLE, ProGlove INSIGHT
+
