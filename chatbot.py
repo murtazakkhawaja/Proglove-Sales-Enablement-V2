@@ -146,7 +146,7 @@ class CompanyChatbot:
             "- When mentioning people, include their role and company from the JSON; if unknown, say 'role not specified' or 'company not specified'.\n"
             "- If a company is not the manufacturer, clearly say 'No, [Company] is not the manufacturer; they are a [role].'\n"
             "- Always include the PDF filename and page number in parentheses after each fact.\n"
-            "- If the JSON is completely empty or contains no relevant information, respond exactly with:\n"
+            "- If the JSON is contains no relevant information, respond exactly with:\n"
             "  'Sorry I don't have an answer to that right now, my memory and learning capabilities are limited yet.'\n"
             "- Do NOT add any additional text or commentary beyond the answer or the fallback sentence."
         )
