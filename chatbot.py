@@ -28,6 +28,19 @@ class CompanyChatbot:
         self.log_dir = "chat_logs"
         os.makedirs(self.log_dir, exist_ok=True)
 
+        
+        # --- GOOGLE SHEETS SETUP ---
+        SERVICE_ACCOUNT_FILE = r"C:\Users\abdul\Desktop\pdf_vector_tool_2\pdf_vector_tool\service_account\service_account.json"  # path to your JSON key file
+        SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
+
+        scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+        creds = service_account.Credentials.from_service_account_file(
+            SERVICE_ACCOUNT_FILE, scopes=scopes
+        )
+        self.sheets_service = build('sheets', 'v4', credentials=creds)
+        self.sheet_id = SPREADSHEET_ID
+        self.sheet_name = "Logs"  # Sheet tab name to append logs
+
     def ask_question(self, user_query: str) -> Dict:
         return self._ask(user_query)
 
@@ -162,6 +175,20 @@ class CompanyChatbot:
             logging.info(f"Chat interaction logged to {log_path}")
         except Exception as e:
             logging.error(f"Failed to write chat log: {e}")
+
+        try:
+            values = [[timestamp, query, response]]
+            body = {'values': values}
+            self.sheets_service.spreadsheets().values().append(
+                spreadsheetId=self.sheet_id,
+                range=f"{self.sheet_name}!A:C",
+                valueInputOption="USER_ENTERED",
+                insertDataOption="INSERT_ROWS",
+                body=body
+            ).execute()
+            logging.info("Logged interaction to Google Sheets")
+        except Exception as e:
+            logging.error(f"Failed to log interaction to Google Sheets: {e}")
 
     def get_database_info(self) -> Dict:
         pdf_names = self.db.get_all_pdf_names()
