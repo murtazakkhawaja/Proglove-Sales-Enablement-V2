@@ -93,6 +93,7 @@ class CompanyChatbot:
             "}\n\n"
             "Rules:\n"
             "- Output valid JSON only — no commentary.\n"
+            "- Always extract ALL facts related to the user's question from the context.\n"
             "- Always extract all facts directly stated in the context. Do not skip partial or indirect mentions.\n"
             "- Always include the exact PDF filename and page number in the 'source' field.\n"
             "- If a company's role is not clear, use 'relationship unknown'.\n"
