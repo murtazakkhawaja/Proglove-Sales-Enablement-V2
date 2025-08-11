@@ -34,13 +34,14 @@ class CompanyChatbot:
 
         
         # --- GOOGLE SHEETS SETUP ---
-        SERVICE_ACCOUNT_FILE  = "service_account/service_account.json"
+        service_account_info = json.loads(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"])
+
        
         SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
 
         scopes = ["https://www.googleapis.com/auth/spreadsheets"]
-        creds = service_account.Credentials.from_service_account_file(
-            SERVICE_ACCOUNT_FILE, scopes=scopes
+        creds = service_account.Credentials.from_service_account_info(
+            service_account_info, scopes=scopes
         )
         self.sheets_service = build('sheets', 'v4', credentials=creds)
         self.sheet_id = SPREADSHEET_ID
