@@ -3,7 +3,6 @@ import os
 import json
 from datetime import datetime
 import streamlit as st
-
 from typing import Dict
 from openai import OpenAI
 from database import EmbeddingDatabase
@@ -36,6 +35,8 @@ class CompanyChatbot:
         
         # --- GOOGLE SHEETS SETUP ---
         servie_account_info = json.loads(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"])
+        print(type(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"]))
+        print(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"])
         SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
 
         scopes = ["https://www.googleapis.com/auth/spreadsheets"]
