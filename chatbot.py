@@ -2,6 +2,8 @@ import logging
 import os
 import json
 from datetime import datetime
+import streamlit as st
+
 from typing import Dict
 from openai import OpenAI
 from database import EmbeddingDatabase
