@@ -7,6 +7,9 @@ from openai import OpenAI
 from database import EmbeddingDatabase
 from utils import get_openai_embedding
 from dotenv import load_dotenv
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+
 
 load_dotenv()
 
