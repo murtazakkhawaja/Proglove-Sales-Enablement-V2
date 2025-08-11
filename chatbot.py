@@ -81,33 +81,31 @@ class CompanyChatbot:
         context_text += "[END DOCUMENT EXCERPTS]"
 
         # Step 3: JSON Extraction Prompt
+        # --- extraction prompt ---
         extraction_prompt = (
             "You are an information extraction assistant for the company ProGlove.\n\n"
-            "From the provided context, EXTRACT information and OUTPUT VALID JSON ONLY. "
-            "The JSON MUST EXACTLY follow the schema below and must be the only content in the response.\n\n"
+            "From the provided context, extract ALL facts that could plausibly help answer the user's question, "
+            "even if some details are unclear. OUTPUT VALID JSON ONLY in the format below.\n\n"
             "JSON schema (exact keys):\n"
             "{\n"
             '  "proglove_facts": [ { "text": "...", "source": "PDF name (pN)" }, ... ],\n'
             '  "other_companies": [ { "name": "...", "role": "customer|partner|collaborator|case study subject|relationship unknown", "source": "PDF name (pN)" }, ... ],\n'
-            '  "people": [ { "name": "...", "role": "...|role unknown", "company": "...|company unknown", "source": "PDF name (pN)" }, ... ]\n'
+            '  "people": [ { "name": "...", "role": "role specified|role unknown", "company": "company specified|company unknown", "source": "PDF name (pN)" }, ... ]\n'
             "}\n\n"
             "Rules:\n"
-            "- Output valid JSON only — no commentary.\n"
-            "- Always extract ALL facts related to the user's question from the context.\n"
-            "- Always extract all facts directly stated in the context. Do not skip partial or indirect mentions.\n"
-            "- Always include the exact PDF filename and page number in the 'source' field.\n"
-            "- If a company's role is not clear, use 'relationship unknown'.\n"
-            "- If a person’s role or company is not stated, use 'role unknown' / 'company unknown'.\n"
-            "- Always list companies and people even if ProGlove is not mentioned in the same sentence.\n"
-            "- Never merge separate facts; keep each fact as a separate object.\n"
-            "- Do not infer beyond what is explicitly stated, but do capture all relevant entities mentioned.\n"
-            "- If there is no relevant information in the context to answer the question, respond with exactly this JSON object (no extra text):\n"
+            "- Always include any fact that may be relevant — even if incomplete.\n"
+            "- If the role or company is unclear, use 'role unknown' or 'company unknown' instead of leaving it out.\n"
+            "- Keep each fact separate — do not merge multiple into one object.\n"
+            "- Always include the exact PDF filename and page number in the 'source'.\n"
+            "- Do not guess beyond the provided context.\n"
+            "- If truly nothing in the context relates to the user's question, return exactly:\n"
             "{\n"
             '  "proglove_facts": [],\n'
             '  "other_companies": [],\n'
             '  "people": []\n'
             "}\n"
         )
+
 
         try:
             extraction_response = openai.chat.completions.create(
@@ -136,20 +134,21 @@ class CompanyChatbot:
             return {"answer": f"Error extracting facts: {e}", "sources": pdf_sources}
 
         # Step 4: Final user-facing rewrite
+        # --- final prompt ---
         final_prompt = (
-            "You are a helpful assistant for the company ProGlove. "
-            "You will be given a JSON object (from the extractor) with three sections: proglove_facts, other_companies, and people. "
-            "DO NOT output or repeat the JSON. Use the JSON only as your source of truth to write a single concise, natural-language answer to the user's question.\n\n"
+            "You are a helpful assistant for the company ProGlove.\n"
+            "You will be given a JSON object (from the extractor) with three sections: proglove_facts, other_companies, and people.\n\n"
+            "Write a clear, concise, natural-sounding answer to the user's question using ONLY the facts in the JSON.\n"
+            "Do not show or mention the JSON itself.\n\n"
             "Rules:\n"
-            "- Always address every part of the user's question explicitly.\n"
-            "- While answering the user, Focus on the most relevant facts to answer the question.\n"
-            "- Focus on ProGlove first. If other companies are relevant, state their relationship using exactly the value from 'role'.\n"
-            "- When mentioning people, include their role and company from the JSON; if unknown, say 'role not specified' or 'company not specified'.\n"
-            "- If a company is not the manufacturer, clearly say 'No, [Company] is not the manufacturer; they are a [role].'\n"
-            "- Always include the PDF filename and page number in parentheses after each fact.\n"
-            "- If the JSON is contains no relevant information, respond exactly with:\n"
-            "  'Sorry I don't have an answer to that right now, my memory and learning capabilities are limited yet.'\n"
-            "- Do NOT add any additional text or commentary beyond the answer or the fallback sentence."
+            "- Address the user's question directly, using any relevant facts from the JSON.\n"
+            "- Prioritize ProGlove facts first.\n"
+            "- Mention other companies only if relevant to the question, stating their role exactly as given (even if 'relationship unknown').\n"
+            "- Mention people only if relevant, including role/company if given; otherwise say 'role not specified' or 'company not specified'.\n"
+            "- Include the PDF filename and page number in parentheses after each fact.\n"
+            "- If all three sections are empty, respond exactly:\n"
+            "  'I couldn't find that in the documents.'\n"
+            "- Write in a friendly, human tone — avoid robotic phrasing.\n"
         )
 
         try:
