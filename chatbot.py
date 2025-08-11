@@ -33,7 +33,7 @@ class CompanyChatbot:
 
         
         # --- GOOGLE SHEETS SETUP ---
-        SERVICE_ACCOUNT_FILE = r"C:\Users\abdul\Desktop\pdf_vector_tool_2\pdf_vector_tool\service_account\service_account.json"  # path to your JSON key file
+        SERVICE_ACCOUNT_FILE = "service_account/service_account.json"
         SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
 
         scopes = ["https://www.googleapis.com/auth/spreadsheets"]
