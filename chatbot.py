@@ -34,7 +34,7 @@ class CompanyChatbot:
 
         
         # --- GOOGLE SHEETS SETUP ---
-        SERVICE_ACCOUNT_FILE  = "service_account\service_account.json"
+        SERVICE_ACCOUNT_FILE  = "service_account/service_account.json"
        
         SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
 
