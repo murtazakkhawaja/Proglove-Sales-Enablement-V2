@@ -37,7 +37,7 @@ class CompanyChatbot:
         service_account_info = json.loads(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"])
 
        
-        SPREADSHEET_ID = os.getenv("GSHEET_SPREADSHEET_ID")  # Set this in your .env or environment
+        SPREADSHEET_ID = st.secrets["GSHEET_SPREADSHEET_ID"]
 
         scopes = ["https://www.googleapis.com/auth/spreadsheets"]
         creds = service_account.Credentials.from_service_account_info(
