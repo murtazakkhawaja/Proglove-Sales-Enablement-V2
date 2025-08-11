@@ -100,6 +100,12 @@ class CompanyChatbot:
             "- Always list companies and people even if ProGlove is not mentioned in the same sentence.\n"
             "- Never merge separate facts; keep each fact as a separate object.\n"
             "- Do not infer beyond what is explicitly stated, but do capture all relevant entities mentioned.\n"
+            "- If there is no relevant information in the context to answer the question, respond with exactly this JSON object (no extra text):\n"
+            "{\n"
+            '  "proglove_facts": [],\n'
+            '  "other_companies": [],\n'
+            '  "people": []\n'
+            "}\n"
         )
 
 
