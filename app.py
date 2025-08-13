@@ -4,7 +4,7 @@ from chatbot import CompanyChatbot
 
 # Page config
 st.set_page_config(
-    page_title="Document AI Assistant",
+    page_title="PROGLOVE SALES ASSISTANT",
     layout="wide",
     initial_sidebar_state="expanded"
 )
