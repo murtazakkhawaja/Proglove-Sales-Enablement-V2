@@ -34,7 +34,7 @@ class CompanyChatbot:
 
         
         # --- GOOGLE SHEETS SETUP ---
-        service_account_info = json.loads(st.secrets["GOOGLE_SERVICE_ACCOUNT_INFO"])
+        service_account_info = json.loads(st.secrets["GOOGLE_SERVICE_ACCOUNT_JSON"])
         
         SPREADSHEET_ID = st.secrets["GSHEET_SPREADSHEET_ID"]
 
