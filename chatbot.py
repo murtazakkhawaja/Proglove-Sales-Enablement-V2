@@ -174,7 +174,7 @@ class CompanyChatbot:
 
         return {
             "answer": final_answer,
-            "sources": pdf_sources
+            "sources": []
         }
 
 

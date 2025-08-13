@@ -40,7 +40,7 @@ with st.sidebar:
             st.session_state.messages = chat
 
 # Title
-st.title("Document AI Assistant")
+st.title("PROGLOVE SALES ASSISTANT")
 st.caption("Ask questions about your documents")
 
 # Display past messages
