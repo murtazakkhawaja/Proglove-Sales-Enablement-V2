@@ -34,14 +34,14 @@ class CompanyChatbot:
 
         
         # --- GOOGLE SHEETS SETUP ---
-        service_account_info = json.loads(st.secrets["GSHEET_SERVICE_ACCOUNT_JSON"])
-
-       
+        service_account_info = json.loads(st.secrets["GOOGLE_SERVICE_ACCOUNT_INFO"])
+        
         SPREADSHEET_ID = st.secrets["GSHEET_SPREADSHEET_ID"]
+
 
         scopes = ["https://www.googleapis.com/auth/spreadsheets"]
         creds = service_account.Credentials.from_service_account_info(
-            service_account_info, scopes=scopes
+           service_account_info, scopes=scopes
         )
         self.sheets_service = build('sheets', 'v4', credentials=creds)
         self.sheet_id = SPREADSHEET_ID
@@ -183,6 +183,7 @@ class CompanyChatbot:
         log_filename = f"chat_{timestamp}.log"
         log_path = os.path.join(self.log_dir, log_filename)
 
+        # --- Local log file ---
         try:
             with open(log_path, "w", encoding="utf-8") as f:
                 f.write(f"QUESTION:\n{query}\n\n")
@@ -192,19 +193,32 @@ class CompanyChatbot:
         except Exception as e:
             logging.error(f"Failed to write chat log: {e}")
 
+        # --- Google Sheets log ---
         try:
             values = [[timestamp, query, response]]
             body = {'values': values}
-            self.sheets_service.spreadsheets().values().append(
+            request = self.sheets_service.spreadsheets().values().append(
                 spreadsheetId=self.sheet_id,
                 range=f"{self.sheet_name}!A:C",
                 valueInputOption="USER_ENTERED",
                 insertDataOption="INSERT_ROWS",
                 body=body
-            ).execute()
+            )
+
+            # Execute request and capture raw API response
+            api_response = request.execute()
+
+            # Print to Streamlit logs 
+            print("Google Sheets API Response:", json.dumps(api_response, indent=2))
+
+            # Also log to the file
+            logging.info(f"Google Sheets API Response: {json.dumps(api_response, indent=2)}")
+
             logging.info("Logged interaction to Google Sheets")
+
         except Exception as e:
             logging.error(f"Failed to log interaction to Google Sheets: {e}")
+            print(f"Google Sheets logging error: {e}")
 
     def get_database_info(self) -> Dict:
         pdf_names = self.db.get_all_pdf_names()
